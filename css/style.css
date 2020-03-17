@@ -15,7 +15,7 @@ body {
 
 .backgroundDay {
     height: 100vh;
-    background-image: url(../images/day.JPG);
+    background-image: url(/images/day.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
 
 .backgroundNight {
     height: 100vh;
-    background-image: url(../images/night.JPG);
+    background-image: url(/images/night.jpg);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
