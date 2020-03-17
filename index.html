@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather widget</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+    <!-- -----------LEFT SIDE----------- -->
+    <div class="weather-wrapper">
+        <div id="clock"></div>
+        <div class="location-inner-wrapper">
+            <h1 class="location"></h1>
+            <img id="logo" src="">
+        </div>
+        <div class="description"></div>
+        <h2 class="temperature"></h2>
+        <div class="lower-div">
+            <h3 class="weather"></h3>
+            <h4 class="sunrise"></h4>
+            <h4 class="sunset"></h4>
+        </div>
+    </div>
+
+    <!-- -----------RIGHT SIDE----------- -->
+    <div class="map">
+        <select size="5" name="cityDropdown" id="cityDropdown">
+            <option id="option1" value="6418538">Region Hovedstaden</option>
+            <option id="option2" value="6418541">Region Sjælland</option>
+            <option id="option3" value="6418542">Region Syddanmark</option>
+            <option id="option4" value="6418539">Region Midtjylland</option>
+            <option id="option5" value="6418540">Region Nordjylland</option>
+        </select>
+        <img src="/images/map.svg">
+        <div class="points" id="point1" data-value="6418538"></div><!-- Region Hovedstaden -->
+        <div class="points" id="point2" data-value="6418541"></div><!-- Region Sjælland -->
+        <div class="points" id="point3" data-value="6418542"></div><!-- Region Syddanmark -->
+        <div class="points" id="point4" data-value="6418539"></div><!-- Region Midtjylland -->
+        <div class="points" id="point5" data-value="6418540"></div><!-- Region Nordjylland -->
+        <p id="imgText">Click the points on the map!</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
