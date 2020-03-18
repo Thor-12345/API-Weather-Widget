@@ -7,22 +7,42 @@
     <title>Weather widget</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- -----------LEFT SIDE----------- -->
     <div class="weather-wrapper">
         <div id="clock"></div>
-        <div class="location-inner-wrapper">
-            <h1 class="location"></h1>
-            <img id="logo" src="">
-        </div>
-        <div class="description"></div>
-        <h2 class="temperature"></h2>
+        <h1 class="location"></h1>
         <div class="lower-div">
+            <h2 class="temperature"></h2>
+            <img id="logo" src="">
             <h3 class="weather"></h3>
             <h4 class="sunrise"></h4>
             <h4 class="sunset"></h4>
+        </div>
+    </div>
+    <div class="tablet">
+        <div class="city" id="hovedstaden" data-value="6418538">
+            <div id="tablet-1" class="tablet-icon-style"></div>
+            <h3>Region<br>Hovedstaden</h3>
+        </div>
+        <div class="city" id="sjaelland" data-value="6418541">
+            <div id="tablet-2" class="tablet-icon-style"></div>
+            <h3>Region<br>Sjælland</h3>
+        </div>
+        <div class="city" id="syddanmark" data-value="6418542">
+            <div id="tablet-3" class="tablet-icon-style"></div>
+            <h3>Region<br>Syddanmark</h3>
+        </div>
+        <div class="city" id="midtjylland" data-value="6418539">
+            <div id="tablet-4" class="tablet-icon-style"></div>
+            <h3>Region<br>Midtjylland</h3>
+        </div>
+        <div class="city" id="nordjylland" data-value="6418540">
+            <div id="tablet-5" class="tablet-icon-style"></div>
+            <h3>Region<br>Nordjylland</h3>
         </div>
     </div>
 
