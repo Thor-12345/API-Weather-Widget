@@ -28,7 +28,7 @@ if (m < 10) {
 
 document.querySelector('#clock').innerHTML = h + ":" + m /* + ":" + s; */
 
-// setInterval(clock, 1000);
+setInterval(clock, 1000);
 }
 
 
