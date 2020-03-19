@@ -145,7 +145,8 @@ function sunriseAndSunset(retrievedData) {
 
     // FUNCTION DOES STUFF WHEN SUN IS DOWN -------------------------------------------------------------------------------
      if (currentHour >= eveningHour && currentHour < sunsetHour ) {
-         document.querySelector('body').classList.add('backgroundEvening');
+        document.querySelector('body').classList.add('backgroundEvening');
+        document.querySelector('#cityDropdown').classList.add('fontColor');
      } else {
         if (currentHour >= sunsetHour || currentHour >= 0 && currentHour < sunriseHour && currentHour <= morningHour) { 
         document.querySelector('body').classList.remove('backgroundEvening');
